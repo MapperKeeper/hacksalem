@@ -1,0 +1,10 @@
+// package.json
+{
+  "name": "Mapper",
+  "dependencies": {
+    "geojsonhint": "^1.1.0"
+  }
+}
+
+// javascript file
+import geojsonhint from 'geojsonhint';

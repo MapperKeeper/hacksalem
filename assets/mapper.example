@@ -1,0 +1,9 @@
+var mymapper = new Mapper(....);
+
+mapper.loads('{"type":"FeatureCollection","features":[{"type":"Feature","geom...",
+             '{"basemap":"Topo","zoom":11,"center":[-8573807.697948722,4712782.306693756]}');
+
+var subscription = mymapper.subscribe();
+subscription('update', function (result) {
+  //called every time data or map config changes
+});
